@@ -1,0 +1,23 @@
+.main__social{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30vh;
+    background-color: #222;
+  
+}
+.social__icon{
+  font-size: 4rem;
+    cursor: pointer;
+    color: #59b256;
+    padding: 3rem;
+}
+.social__icon:hover{
+    color: #fff;
+}
+@media screen and (max-width: 480px) {
+   .social__icon{
+    font-size: 3rem;
+    padding: 1rem;
+   }
+}
